@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="30" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.abrigo.view.MenuMovimentacoesController">
+    <Button maxWidth="250" onAction="#abrirRegistroDoacao" text="Registro Doação" />
+    <Button maxWidth="250" onAction="#abrirRegistroAdocao" prefWidth="194.0" text="Registro Adoção" />
+    <Button maxWidth="250" onAction="#abrirCompras" text="Compras" />
+    <Button maxWidth="250" onAction="#abrirCAnimal" text="Cadastro de Animal" />
+    <Button maxWidth="250" onAction="#abrirRGLartemporario" text="Registro Animal Lar temporário" />
+    <Button maxWidth="250" onAction="#voltar" text="Voltar" />
+</VBox>

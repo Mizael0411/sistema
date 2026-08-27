@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" xmlns="http://javafx.com/javafx/17.0.12">
+    <Label text="Bem-vindo ao Sistema Abrigo" style="-fx-font-size: 22px;"/>
+</VBox>

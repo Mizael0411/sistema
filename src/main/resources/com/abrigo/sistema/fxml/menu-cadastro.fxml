@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.abrigo.view.MenuCadastroController">
+    <Button maxWidth="Infinity" onAction="#abrirCadastroAnimal" text="Cadastro Animal" />
+    <Button maxWidth="Infinity" onAction="#abrirCadastroLarTemporario" text="Cadastro Lar Temporário" />
+    <Button maxWidth="Infinity" onAction="#abrirCadastroProdutos" text="Cadastro Produtos" />
+    <Button maxWidth="Infinity" onAction="#abrirCadastroDoacoes" text="Cadastro Doações" />
+    <Button maxWidth="Infinity" onAction="#sair" text="Sair" />
+</VBox>

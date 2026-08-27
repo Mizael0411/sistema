@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.abrigo.view.RelatorioMenuController">
+    <Button maxWidth="Infinity" onAction="#abrirRelFinanceiro" text="Relatorio Financeiro" />
+    <Button maxWidth="Infinity" onAction="#abrirRelDoacao" text="Relatório de Doação" />
+    <Button maxWidth="Infinity" onAction="#abrirRelAdocao" text="Relatório de Adoção" />
+    <Button maxWidth="Infinity" onAction="#abrirRelAnimais" text="Relatório Animais (Lar, Doado)" />
+    <Button maxWidth="Infinity" onAction="#sair" text="Sair" />
+</VBox>
