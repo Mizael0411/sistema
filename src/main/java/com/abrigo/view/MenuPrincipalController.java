@@ -2,6 +2,15 @@ package com.abrigo.view;
 
 import javafx.fxml.FXML;
 
+/**
+ * Controller responsável pela tela de menu principal e navegação entre as telas.
+ * - Contendo as telas de cadastro, movimentações e relatórios
+ *
+ * Camada: Controller
+ * Arquivo Relacionado: main-Layout.fxml
+ *
+ * @author Mizael
+ */
 public class MenuPrincipalController {
 
     @FXML

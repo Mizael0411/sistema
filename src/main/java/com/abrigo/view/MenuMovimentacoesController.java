@@ -1,7 +1,15 @@
 package com.abrigo.view;
 
 import javafx.fxml.FXML;
-
+/**
+ * Controller responsável pela tela de movimentações.
+ * - Contendo as telas de regitro de doação, registro de adoção, compras, cadastro de animal e registro de lar temporário.
+ *
+ * Camada: Controller
+ * Arquivo Relacionado: Movimentacao.fxml
+ *
+ * @author Mizael
+ */
 public class MenuMovimentacoesController {
 
     @FXML

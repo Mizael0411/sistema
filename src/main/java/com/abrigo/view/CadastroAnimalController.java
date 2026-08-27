@@ -7,6 +7,15 @@ import javafx.scene.control.DatePicker;
 import javafx.scene.control.TextField;
 import java.time.LocalDate;
 
+/**
+ * Controller responsável pela tela de cadastro de animais.
+ *
+ * Camada: Controller
+ * Arquivo Relacionado: cadastroAnimal.fxml
+ *
+ * @author Mizael
+ */
+
 public class CadastroAnimalController {
 
     @FXML private TextField txtNome;

@@ -5,7 +5,14 @@ import javafx.fxml.FXML;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import java.io.IOException;
-
+/**
+ * Controller responsável pela tela de login.
+ *
+ * Camada: Controller
+ * Arquivo Relacionado: login.fxml
+ *
+ * @author Mizael
+ */
 public class LoginController {
 
     @FXML private TextField txtUsuario;
