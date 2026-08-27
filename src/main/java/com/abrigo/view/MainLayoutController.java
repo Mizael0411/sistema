@@ -8,10 +8,8 @@ import java.net.URL;
 import java.util.ResourceBundle;
 /**
  * Classe java que divide a tela em duas areas, uma para o menu e outra para o conteúdo. O menu é carregado na área de menu e o conteúdo é carregado na área de conteúdo.
- *
  * Camada: Controller
  * Arquivo Relacionado: main-Layout.fxml
- *
  * @author Mizael
  */
 public class MainLayoutController implements Initializable {

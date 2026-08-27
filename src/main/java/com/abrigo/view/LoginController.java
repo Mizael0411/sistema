@@ -7,7 +7,6 @@ import javafx.scene.control.TextField;
 import java.io.IOException;
 /**
  * Controller responsável pela tela de login.
- *
  * Camada: Controller
  * Arquivo Relacionado: login.fxml
  *

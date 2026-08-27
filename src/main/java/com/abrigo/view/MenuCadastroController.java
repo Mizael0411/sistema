@@ -5,10 +5,8 @@ import javafx.fxml.FXML;
 public class MenuCadastroController {
     /**
      * Controller responsável pela tela de cadastros. Contendo as telas para cadstro de animais, lar temporário, produtos e doações.
-     *
      * Camada: Controller
      * Arquivo Relacionado: menu-cadastro.fxml
-     *
      * @author Mizael
      */
     @FXML
@@ -17,7 +15,7 @@ public class MenuCadastroController {
     }
     @FXML
     private void abrirCadastroLarTemporario() {
-        NavigationManager.getInstance().navegarConteudo("cadastroLarTemporario");
+        NavigationManager.getInstance().navegarConteudo("cadastroLarTemp");
     }
 
     @FXML

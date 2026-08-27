@@ -9,10 +9,8 @@ import java.time.LocalDate;
 
 /**
  * Controller responsável pela tela de cadastro de animais.
- *
  * Camada: Controller
  * Arquivo Relacionado: cadastroAnimal.fxml
- *
  * @author Mizael
  */
 
