@@ -13,7 +13,6 @@ import java.time.LocalDate;
  * Arquivo Relacionado: cadastroAnimal.fxml
  * @author Mizael
  */
-vug
 public class CadastroAnimalController {
 
     @FXML private TextField txtNome;
@@ -43,6 +42,7 @@ public class CadastroAnimalController {
     public LocalDate getDataNascimento() {
         return dpDataNascimento.getValue();
     }
+    
 
     public String getStatusGravidez() {
         return cbGravida.getValue();
