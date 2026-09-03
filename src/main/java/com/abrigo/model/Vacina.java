@@ -1,8 +1,16 @@
 package com.abrigo.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
 import java.util.Date;
 
+@Entity
 public class Vacina {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id_vacina;
     private String tipo_vacina;
     private Date data_vacinacao;
